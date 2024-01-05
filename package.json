@@ -1,0 +1,51 @@
+{
+  "name": "bigtech_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sanity/client": "^6.10.0",
+    "@sanity/image-url": "^1.0.2",
+    "axios": "^1.6.4",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "jquery": "^3.6.3",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-odometerjs": "^3.1.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4",
+    "wow.js": "^1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start -p 3002",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predev": "node src/lib/preBuildScripts/preBuildDev.js",
+    "dev": "next dev",
+    "prebuild:dev": "node src/lib/preBuildScripts/preBuildDev.js",
+    "prebuild:prod": "node src/lib/preBuildScripts/preBuildProd.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
